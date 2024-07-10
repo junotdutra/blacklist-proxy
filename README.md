@@ -1,4 +1,4 @@
-# blacklist-croxyproxy
+# blacklist-proxy
 
 create a file /etc/firewall.user
 
