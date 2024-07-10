@@ -5,7 +5,7 @@ create a file /etc/firewall.user
 touch /etc/firewall.user
 
 for IP in $(wget -O - \
- "https://raw.githubusercontent.com/junotdutra/blacklist-croxyproxy/6e25b83a7d188dee84d849d3ec681e62419efff3/ip.txt")
+ "https://raw.githubusercontent.com/junotdutra/blacklist-proxy/main/ip.txt")
 do echo ${IP} >> /var/ipset-croxyproxy
 done
 
